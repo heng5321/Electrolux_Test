@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCF9E2DF27F20FAF00341744 /* Electrolux_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF9E2DE27F20FAF00341744 /* Electrolux_TestApp.swift */; };
+		DCF9E2E127F20FAF00341744 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF9E2E027F20FAF00341744 /* ContentView.swift */; };
+		DCF9E2E327F20FB500341744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF9E2E227F20FB500341744 /* Assets.xcassets */; };
+		DCF9E2E627F20FB500341744 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF9E2E527F20FB500341744 /* Preview Assets.xcassets */; };
+		DCF9E2F027F20FB500341744 /* Electrolux_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF9E2EF27F20FB500341744 /* Electrolux_TestTests.swift */; };
+		DCF9E2FA27F20FB500341744 /* Electrolux_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF9E2F927F20FB500341744 /* Electrolux_TestUITests.swift */; };
+		DCF9E2FC27F20FB500341744 /* Electrolux_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF9E2FB27F20FB500341744 /* Electrolux_TestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCF9E2EC27F20FB500341744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCF9E2D327F20FAF00341744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF9E2DA27F20FAF00341744;
+			remoteInfo = Electrolux_Test;
+		};
+		DCF9E2F627F20FB500341744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCF9E2D327F20FAF00341744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF9E2DA27F20FAF00341744;
+			remoteInfo = Electrolux_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCF9E2DB27F20FAF00341744 /* Electrolux_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Electrolux_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF9E2DE27F20FAF00341744 /* Electrolux_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electrolux_TestApp.swift; sourceTree = "<group>"; };
+		DCF9E2E027F20FAF00341744 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCF9E2E227F20FB500341744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCF9E2E527F20FB500341744 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCF9E2EB27F20FB500341744 /* Electrolux_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Electrolux_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF9E2EF27F20FB500341744 /* Electrolux_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electrolux_TestTests.swift; sourceTree = "<group>"; };
+		DCF9E2F527F20FB500341744 /* Electrolux_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Electrolux_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF9E2F927F20FB500341744 /* Electrolux_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electrolux_TestUITests.swift; sourceTree = "<group>"; };
+		DCF9E2FB27F20FB500341744 /* Electrolux_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electrolux_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCF9E2D827F20FAF00341744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF9E2E827F20FB500341744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF9E2F227F20FB500341744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCF9E2D227F20FAF00341744 = {
+			isa = PBXGroup;
+			children = (
+				DCF9E2DD27F20FAF00341744 /* Electrolux_Test */,
+				DCF9E2EE27F20FB500341744 /* Electrolux_TestTests */,
+				DCF9E2F827F20FB500341744 /* Electrolux_TestUITests */,
+				DCF9E2DC27F20FAF00341744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCF9E2DC27F20FAF00341744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCF9E2DB27F20FAF00341744 /* Electrolux_Test.app */,
+				DCF9E2EB27F20FB500341744 /* Electrolux_TestTests.xctest */,
+				DCF9E2F527F20FB500341744 /* Electrolux_TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCF9E2DD27F20FAF00341744 /* Electrolux_Test */ = {
+			isa = PBXGroup;
+			children = (
+				DCF9E2DE27F20FAF00341744 /* Electrolux_TestApp.swift */,
+				DCF9E2E027F20FAF00341744 /* ContentView.swift */,
+				DCF9E2E227F20FB500341744 /* Assets.xcassets */,
+				DCF9E2E427F20FB500341744 /* Preview Content */,
+			);
+			path = Electrolux_Test;
+			sourceTree = "<group>";
+		};
+		DCF9E2E427F20FB500341744 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCF9E2E527F20FB500341744 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCF9E2EE27F20FB500341744 /* Electrolux_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCF9E2EF27F20FB500341744 /* Electrolux_TestTests.swift */,
+			);
+			path = Electrolux_TestTests;
+			sourceTree = "<group>";
+		};
+		DCF9E2F827F20FB500341744 /* Electrolux_TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCF9E2F927F20FB500341744 /* Electrolux_TestUITests.swift */,
+				DCF9E2FB27F20FB500341744 /* Electrolux_TestUITestsLaunchTests.swift */,
+			);
+			path = Electrolux_TestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCF9E2DA27F20FAF00341744 /* Electrolux_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF9E2FF27F20FB500341744 /* Build configuration list for PBXNativeTarget "Electrolux_Test" */;
+			buildPhases = (
+				DCF9E2D727F20FAF00341744 /* Sources */,
+				DCF9E2D827F20FAF00341744 /* Frameworks */,
+				DCF9E2D927F20FAF00341744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Electrolux_Test;
+			productName = Electrolux_Test;
+			productReference = DCF9E2DB27F20FAF00341744 /* Electrolux_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCF9E2EA27F20FB500341744 /* Electrolux_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF9E30227F20FB500341744 /* Build configuration list for PBXNativeTarget "Electrolux_TestTests" */;
+			buildPhases = (
+				DCF9E2E727F20FB500341744 /* Sources */,
+				DCF9E2E827F20FB500341744 /* Frameworks */,
+				DCF9E2E927F20FB500341744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF9E2ED27F20FB500341744 /* PBXTargetDependency */,
+			);
+			name = Electrolux_TestTests;
+			productName = Electrolux_TestTests;
+			productReference = DCF9E2EB27F20FB500341744 /* Electrolux_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCF9E2F427F20FB500341744 /* Electrolux_TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF9E30527F20FB500341744 /* Build configuration list for PBXNativeTarget "Electrolux_TestUITests" */;
+			buildPhases = (
+				DCF9E2F127F20FB500341744 /* Sources */,
+				DCF9E2F227F20FB500341744 /* Frameworks */,
+				DCF9E2F327F20FB500341744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF9E2F727F20FB500341744 /* PBXTargetDependency */,
+			);
+			name = Electrolux_TestUITests;
+			productName = Electrolux_TestUITests;
+			productReference = DCF9E2F527F20FB500341744 /* Electrolux_TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCF9E2D327F20FAF00341744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DCF9E2DA27F20FAF00341744 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					DCF9E2EA27F20FB500341744 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = DCF9E2DA27F20FAF00341744;
+					};
+					DCF9E2F427F20FB500341744 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = DCF9E2DA27F20FAF00341744;
+					};
+				};
+			};
+			buildConfigurationList = DCF9E2D627F20FAF00341744 /* Build configuration list for PBXProject "Electrolux_Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCF9E2D227F20FAF00341744;
+			productRefGroup = DCF9E2DC27F20FAF00341744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCF9E2DA27F20FAF00341744 /* Electrolux_Test */,
+				DCF9E2EA27F20FB500341744 /* Electrolux_TestTests */,
+				DCF9E2F427F20FB500341744 /* Electrolux_TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCF9E2D927F20FAF00341744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF9E2E627F20FB500341744 /* Preview Assets.xcassets in Resources */,
+				DCF9E2E327F20FB500341744 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF9E2E927F20FB500341744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF9E2F327F20FB500341744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCF9E2D727F20FAF00341744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF9E2E127F20FAF00341744 /* ContentView.swift in Sources */,
+				DCF9E2DF27F20FAF00341744 /* Electrolux_TestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF9E2E727F20FB500341744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF9E2F027F20FB500341744 /* Electrolux_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF9E2F127F20FB500341744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF9E2FA27F20FB500341744 /* Electrolux_TestUITests.swift in Sources */,
+				DCF9E2FC27F20FB500341744 /* Electrolux_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCF9E2ED27F20FB500341744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCF9E2DA27F20FAF00341744 /* Electrolux_Test */;
+			targetProxy = DCF9E2EC27F20FB500341744 /* PBXContainerItemProxy */;
+		};
+		DCF9E2F727F20FB500341744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCF9E2DA27F20FAF00341744 /* Electrolux_Test */;
+			targetProxy = DCF9E2F627F20FB500341744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCF9E2FD27F20FB500341744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCF9E2FE27F20FB500341744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCF9E30027F20FB500341744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Electrolux_Test/Preview Content\"";
+				DEVELOPMENT_TEAM = XYX52A55V3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "karheng.Electrolux-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCF9E30127F20FB500341744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Electrolux_Test/Preview Content\"";
+				DEVELOPMENT_TEAM = XYX52A55V3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "karheng.Electrolux-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCF9E30327F20FB500341744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XYX52A55V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "karheng.Electrolux-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Electrolux_Test.app/Electrolux_Test";
+			};
+			name = Debug;
+		};
+		DCF9E30427F20FB500341744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XYX52A55V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "karheng.Electrolux-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Electrolux_Test.app/Electrolux_Test";
+			};
+			name = Release;
+		};
+		DCF9E30627F20FB500341744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XYX52A55V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "karheng.Electrolux-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Electrolux_Test;
+			};
+			name = Debug;
+		};
+		DCF9E30727F20FB500341744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XYX52A55V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "karheng.Electrolux-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Electrolux_Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCF9E2D627F20FAF00341744 /* Build configuration list for PBXProject "Electrolux_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF9E2FD27F20FB500341744 /* Debug */,
+				DCF9E2FE27F20FB500341744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF9E2FF27F20FB500341744 /* Build configuration list for PBXNativeTarget "Electrolux_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF9E30027F20FB500341744 /* Debug */,
+				DCF9E30127F20FB500341744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF9E30227F20FB500341744 /* Build configuration list for PBXNativeTarget "Electrolux_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF9E30327F20FB500341744 /* Debug */,
+				DCF9E30427F20FB500341744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF9E30527F20FB500341744 /* Build configuration list for PBXNativeTarget "Electrolux_TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF9E30627F20FB500341744 /* Debug */,
+				DCF9E30727F20FB500341744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCF9E2D327F20FAF00341744 /* Project object */;
+}
