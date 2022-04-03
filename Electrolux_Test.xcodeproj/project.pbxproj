@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		627DD330B8BF20CAA6AC21F7 /* Pods_Electrolux_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4FD8DE8CD45F1D0208BCB2 /* Pods_Electrolux_Test.framework */; };
+		7FF199124CE464A922E6E14F /* Pods_Electrolux_Test_Electrolux_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A643D887CE0786CE1A55A7F /* Pods_Electrolux_Test_Electrolux_TestUITests.framework */; };
+		9F7F8C4CC5FC9F63B44BF3D6 /* Pods_Electrolux_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9639F950687B64CF08442278 /* Pods_Electrolux_TestTests.framework */; };
+		DC0AF6AD27F96EDB005652F2 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0AF6AC27F96EDB005652F2 /* AlertView.swift */; };
+		DC0AF6B127F9D795005652F2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0AF6B027F9D795005652F2 /* DetailView.swift */; };
+		DC0AF6B327F9D7A3005652F2 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0AF6B227F9D7A3005652F2 /* DetailViewModel.swift */; };
+		DC0AF6B527F9D807005652F2 /* View+Navigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0AF6B427F9D807005652F2 /* View+Navigate.swift */; };
+		DC58648C27FA1BCA00FD0562 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC58648B27FA1BCA00FD0562 /* Photo.swift */; };
+		DC7356AC27F2F5DB00FAE303 /* RestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7356AB27F2F5DB00FAE303 /* RestService.swift */; };
+		DC7356AF27F2FB5000FAE303 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7356AE27F2FB5000FAE303 /* HomeView.swift */; };
+		DC7356B127F2FB9700FAE303 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7356B027F2FB9600FAE303 /* HomeViewModel.swift */; };
+		DCA4C61527F4D803000442DF /* CGFloat+Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4C61427F4D803000442DF /* CGFloat+Spacing.swift */; };
 		DCF9E2DF27F20FAF00341744 /* Electrolux_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF9E2DE27F20FAF00341744 /* Electrolux_TestApp.swift */; };
 		DCF9E2E127F20FAF00341744 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF9E2E027F20FAF00341744 /* ContentView.swift */; };
 		DCF9E2E327F20FB500341744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF9E2E227F20FB500341744 /* Assets.xcassets */; };
@@ -34,6 +46,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		207454F55803A97B32A4B67F /* Pods-Electrolux_TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Electrolux_TestTests.release.xcconfig"; path = "Target Support Files/Pods-Electrolux_TestTests/Pods-Electrolux_TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		2A643D887CE0786CE1A55A7F /* Pods_Electrolux_Test_Electrolux_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Electrolux_Test_Electrolux_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4FD8DE8CD45F1D0208BCB2 /* Pods_Electrolux_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Electrolux_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF62B3D5B3C3C23817FA021 /* Pods-Electrolux_Test-Electrolux_TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Electrolux_Test-Electrolux_TestUITests.release.xcconfig"; path = "Target Support Files/Pods-Electrolux_Test-Electrolux_TestUITests/Pods-Electrolux_Test-Electrolux_TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9639F950687B64CF08442278 /* Pods_Electrolux_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Electrolux_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B108DD4F8DE76CE406C2401A /* Pods-Electrolux_Test-Electrolux_TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Electrolux_Test-Electrolux_TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-Electrolux_Test-Electrolux_TestUITests/Pods-Electrolux_Test-Electrolux_TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B15CB340711CA4E3CCEDA18A /* Pods-Electrolux_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Electrolux_Test.release.xcconfig"; path = "Target Support Files/Pods-Electrolux_Test/Pods-Electrolux_Test.release.xcconfig"; sourceTree = "<group>"; };
+		D5198277AE5AF4A9648A8FDF /* Pods-Electrolux_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Electrolux_Test.debug.xcconfig"; path = "Target Support Files/Pods-Electrolux_Test/Pods-Electrolux_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		DC0AF6AA27F88F66005652F2 /* Electrolux-Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Electrolux-Test-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DC0AF6AC27F96EDB005652F2 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		DC0AF6B027F9D795005652F2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DC0AF6B227F9D7A3005652F2 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		DC0AF6B427F9D807005652F2 /* View+Navigate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Navigate.swift"; sourceTree = "<group>"; };
+		DC58648B27FA1BCA00FD0562 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		DC7356AB27F2F5DB00FAE303 /* RestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestService.swift; sourceTree = "<group>"; };
+		DC7356AE27F2FB5000FAE303 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DC7356B027F2FB9600FAE303 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DCA4C61427F4D803000442DF /* CGFloat+Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Spacing.swift"; sourceTree = "<group>"; };
 		DCF9E2DB27F20FAF00341744 /* Electrolux_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Electrolux_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF9E2DE27F20FAF00341744 /* Electrolux_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electrolux_TestApp.swift; sourceTree = "<group>"; };
 		DCF9E2E027F20FAF00341744 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +74,7 @@
 		DCF9E2F527F20FB500341744 /* Electrolux_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Electrolux_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF9E2F927F20FB500341744 /* Electrolux_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electrolux_TestUITests.swift; sourceTree = "<group>"; };
 		DCF9E2FB27F20FB500341744 /* Electrolux_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electrolux_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCAFC2C4822B35803FBABF63 /* Pods-Electrolux_TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Electrolux_TestTests.debug.xcconfig"; path = "Target Support Files/Pods-Electrolux_TestTests/Pods-Electrolux_TestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627DD330B8BF20CAA6AC21F7 /* Pods_Electrolux_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7F8C4CC5FC9F63B44BF3D6 /* Pods_Electrolux_TestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +98,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FF199124CE464A922E6E14F /* Pods_Electrolux_Test_Electrolux_TestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E6EB6A4BD77FF0483393612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D4FD8DE8CD45F1D0208BCB2 /* Pods_Electrolux_Test.framework */,
+				2A643D887CE0786CE1A55A7F /* Pods_Electrolux_Test_Electrolux_TestUITests.framework */,
+				9639F950687B64CF08442278 /* Pods_Electrolux_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DC1E61987F0254C59063B8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5198277AE5AF4A9648A8FDF /* Pods-Electrolux_Test.debug.xcconfig */,
+				B15CB340711CA4E3CCEDA18A /* Pods-Electrolux_Test.release.xcconfig */,
+				B108DD4F8DE76CE406C2401A /* Pods-Electrolux_Test-Electrolux_TestUITests.debug.xcconfig */,
+				3DF62B3D5B3C3C23817FA021 /* Pods-Electrolux_Test-Electrolux_TestUITests.release.xcconfig */,
+				FCAFC2C4822B35803FBABF63 /* Pods-Electrolux_TestTests.debug.xcconfig */,
+				207454F55803A97B32A4B67F /* Pods-Electrolux_TestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC0AF6AB27F96EC9005652F2 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				DC0AF6AC27F96EDB005652F2 /* AlertView.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		DC0AF6AE27F9D361005652F2 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				DC7356AE27F2FB5000FAE303 /* HomeView.swift */,
+				DC7356B027F2FB9600FAE303 /* HomeViewModel.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		DC0AF6AF27F9D36D005652F2 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				DC0AF6B027F9D795005652F2 /* DetailView.swift */,
+				DC0AF6B227F9D7A3005652F2 /* DetailViewModel.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		DC58648A27FA1BBF00FD0562 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC58648B27FA1BCA00FD0562 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC7356AA27F2F58200FAE303 /* RestService */ = {
+			isa = PBXGroup;
+			children = (
+				DC7356AB27F2F5DB00FAE303 /* RestService.swift */,
+			);
+			path = RestService;
+			sourceTree = "<group>";
+		};
+		DC7356AD27F2FB0B00FAE303 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC0AF6AB27F96EC9005652F2 /* Widget */,
+				DC0AF6AF27F9D36D005652F2 /* DetailView */,
+				DC0AF6AE27F9D361005652F2 /* HomeView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCA4C61327F4D7EE000442DF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4C61427F4D803000442DF /* CGFloat+Spacing.swift */,
+				DC0AF6B427F9D807005652F2 /* View+Navigate.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		DCF9E2D227F20FAF00341744 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +196,8 @@
 				DCF9E2EE27F20FB500341744 /* Electrolux_TestTests */,
 				DCF9E2F827F20FB500341744 /* Electrolux_TestUITests */,
 				DCF9E2DC27F20FAF00341744 /* Products */,
+				2DC1E61987F0254C59063B8F /* Pods */,
+				1E6EB6A4BD77FF0483393612 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +214,14 @@
 		DCF9E2DD27F20FAF00341744 /* Electrolux_Test */ = {
 			isa = PBXGroup;
 			children = (
-				DCF9E2DE27F20FAF00341744 /* Electrolux_TestApp.swift */,
+				DC58648A27FA1BBF00FD0562 /* Models */,
+				DCA4C61327F4D7EE000442DF /* Extension */,
+				DC7356AD27F2FB0B00FAE303 /* View */,
+				DC7356AA27F2F58200FAE303 /* RestService */,
 				DCF9E2E027F20FAF00341744 /* ContentView.swift */,
+				DCF9E2DE27F20FAF00341744 /* Electrolux_TestApp.swift */,
 				DCF9E2E227F20FB500341744 /* Assets.xcassets */,
+				DC0AF6AA27F88F66005652F2 /* Electrolux-Test-Info.plist */,
 				DCF9E2E427F20FB500341744 /* Preview Content */,
 			);
 			path = Electrolux_Test;
@@ -134,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCF9E2FF27F20FB500341744 /* Build configuration list for PBXNativeTarget "Electrolux_Test" */;
 			buildPhases = (
+				06947446060640008E902A43 /* [CP] Check Pods Manifest.lock */,
 				DCF9E2D727F20FAF00341744 /* Sources */,
 				DCF9E2D827F20FAF00341744 /* Frameworks */,
 				DCF9E2D927F20FAF00341744 /* Resources */,
+				CD0E4762A9D6FD0A3A5201EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCF9E30227F20FB500341744 /* Build configuration list for PBXNativeTarget "Electrolux_TestTests" */;
 			buildPhases = (
+				CB1348CDB080ADB866CE9428 /* [CP] Check Pods Manifest.lock */,
 				DCF9E2E727F20FB500341744 /* Sources */,
 				DCF9E2E827F20FB500341744 /* Frameworks */,
 				DCF9E2E927F20FB500341744 /* Resources */,
@@ -169,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCF9E30527F20FB500341744 /* Build configuration list for PBXNativeTarget "Electrolux_TestUITests" */;
 			buildPhases = (
+				0B0B832E84211BAC76AE3922 /* [CP] Check Pods Manifest.lock */,
 				DCF9E2F127F20FB500341744 /* Sources */,
 				DCF9E2F227F20FB500341744 /* Frameworks */,
 				DCF9E2F327F20FB500341744 /* Resources */,
+				BEE9AC0D3D21DA696C7A03C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,13 +382,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06947446060640008E902A43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Electrolux_Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B0B832E84211BAC76AE3922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Electrolux_Test-Electrolux_TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE9AC0D3D21DA696C7A03C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Electrolux_Test-Electrolux_TestUITests/Pods-Electrolux_Test-Electrolux_TestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Electrolux_Test-Electrolux_TestUITests/Pods-Electrolux_Test-Electrolux_TestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Electrolux_Test-Electrolux_TestUITests/Pods-Electrolux_Test-Electrolux_TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB1348CDB080ADB866CE9428 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Electrolux_TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD0E4762A9D6FD0A3A5201EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Electrolux_Test/Pods-Electrolux_Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Electrolux_Test/Pods-Electrolux_Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Electrolux_Test/Pods-Electrolux_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCF9E2D727F20FAF00341744 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DCF9E2E127F20FAF00341744 /* ContentView.swift in Sources */,
+				DC0AF6B127F9D795005652F2 /* DetailView.swift in Sources */,
+				DCA4C61527F4D803000442DF /* CGFloat+Spacing.swift in Sources */,
+				DC0AF6B327F9D7A3005652F2 /* DetailViewModel.swift in Sources */,
+				DC7356B127F2FB9700FAE303 /* HomeViewModel.swift in Sources */,
+				DC7356AF27F2FB5000FAE303 /* HomeView.swift in Sources */,
 				DCF9E2DF27F20FAF00341744 /* Electrolux_TestApp.swift in Sources */,
+				DC58648C27FA1BCA00FD0562 /* Photo.swift in Sources */,
+				DC0AF6AD27F96EDB005652F2 /* AlertView.swift in Sources */,
+				DC0AF6B527F9D807005652F2 /* View+Navigate.swift in Sources */,
+				DC7356AC27F2F5DB00FAE303 /* RestService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +653,7 @@
 		};
 		DCF9E30027F20FB500341744 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5198277AE5AF4A9648A8FDF /* Pods-Electrolux_Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +663,9 @@
 				DEVELOPMENT_TEAM = XYX52A55V3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Electrolux-Test-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save photos, please allow Photo library access";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Usage Description";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,6 +686,7 @@
 		};
 		DCF9E30127F20FB500341744 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15CB340711CA4E3CCEDA18A /* Pods-Electrolux_Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +696,9 @@
 				DEVELOPMENT_TEAM = XYX52A55V3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Electrolux-Test-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save photos, please allow Photo library access";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Usage Description";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -469,6 +719,7 @@
 		};
 		DCF9E30327F20FB500341744 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCAFC2C4822B35803FBABF63 /* Pods-Electrolux_TestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +740,7 @@
 		};
 		DCF9E30427F20FB500341744 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207454F55803A97B32A4B67F /* Pods-Electrolux_TestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +761,7 @@
 		};
 		DCF9E30627F20FB500341744 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B108DD4F8DE76CE406C2401A /* Pods-Electrolux_Test-Electrolux_TestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +780,7 @@
 		};
 		DCF9E30727F20FB500341744 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF62B3D5B3C3C23817FA021 /* Pods-Electrolux_Test-Electrolux_TestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
